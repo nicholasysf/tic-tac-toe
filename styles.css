@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Silkscreen',cursive;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 2px solid rgb(88, 88, 88);
+    font-size: 36px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:80vh;
+    width: 100%;
+    
+}
+
+
+main>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    font-size: 24px;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: ;
+    width: 454px;
+    height: 454px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border-style: solid;
+    border-color: rgb(68, 76, 76);
+}
+
+.boxes{
+    border: 1px solid rgb(80, 80, 80);
+    transition: all .5s ease;
+    line-height: 1;
+    outline: none;
+    
+}
+
+.boxes:hover {
+    color: #001F3F;
+    background-color: rgb(118, 145, 161);
+}
+
+footer{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    gap: 12px;
+}
+
+img{
+    height: 32px;
+}
