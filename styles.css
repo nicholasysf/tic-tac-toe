@@ -63,6 +63,30 @@ main>p{
     background-color: rgb(118, 145, 161);
 }
 
+button{
+    padding-top: 20px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #4a5c71;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+    font-family: 'Silkscreen',cursive;
+    
+}
+button:hover{
+
+        background: rgba(111, 166, 228, 0.9);
+        box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
 footer{
     display: flex;
     padding-top: 50px;
