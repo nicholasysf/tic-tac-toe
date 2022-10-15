@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- HEADER HERE -->
     <header>Tic-tac-toe by nicholas!</header>
+    <!-- MAIN HERE -->
     <main>
-        <p>Player 1's turn!</p>
+        <p>It's game time!</p>
         <div class="grid-container">
-            <div class="boxes" data-cell>0</div>
-            <div class="boxes" data-cell>1</div>
-            <div class="boxes" data-cell>2</div>
-            <div class="boxes" data-cell>3</div>
-            <div class="boxes" data-cell>4</div>
-            <div class="boxes" data-cell>5</div>
-            <div class="boxes" data-cell>6</div>
-            <div class="boxes" data-cell>7</div>
-            <div class="boxes" data-cell>8</div>
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
         </div>
-        <div class="winning-message" id="winningMessage">
-            <div id="winningMessageText"></div>
-            <button id="restartButton">Restart</button>
-        </div>
+        <div id="statusText"></div>
+        <button id="restartButton">Restart</button>
+        
         <footer>Copyright NICHOLASYSF <img src="./icons8-animation-96.png" alt=""></footer>
     </main>
+    <script src="app.js" ></script>
 </body>
+
 </html>
